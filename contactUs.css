@@ -1,0 +1,67 @@
+@import url(./stylish.css);
+
+.contact {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.title h1 {
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+}
+
+.title hr {
+    width: 25em;
+}
+
+.newsletter input {
+    width: 85%;
+}
+
+.feedback form {
+    margin-top: 20px;
+}
+
+.feedback label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.feedback input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.feedback button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+abbr {
+    color: red;
+}

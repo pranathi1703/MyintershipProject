@@ -1,0 +1,55 @@
+@import url(./stylish.css);
+.services {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 0px;
+}
+.services {
+    width: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+p {
+    color: #666666;
+}
+
+.title h1 {
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+}
+
+.title hr {
+    width: 25em;
+}
+.servicescontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em ;
+}
+.Imageicon{
+    height: 2em;
+    width: 2em;
+}
+@media (max-width:768px) {
+    .servicescontainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+@import url(./stylish.css);
+
+.story {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.title h1 {
+    padding: 15px 15px 0px 15px;
+    text-align: center;
+}
+
+.title hr {
+    width: 25em;
+}
